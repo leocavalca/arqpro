@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArqPro - Projetos Arquitetônicos</title>
+    <!--Folha de Estilo-->
+    <link rel="stylesheet" href="assets/style/style.css">
+    <!--Fontawesome Icons-->
+    <script src="https://kit.fontawesome.com/e252e9b519.js" crossorigin="anonymous"></script>
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--Js-->
+    <script src="assets/script/script.js" defer></script>
+    <!--SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!--Estrutura da chamada do evento-->
+    <header id="event_desc">
+        <div id="event_banner">
+            <div id="nome_emp"><h2>ArqPro</h2><i class="bi bi-badge-tm"></i></div>
+            <p id="sobre_event">
+                Um evento revolucionário sobre arquitetura de interiores
+            </p>
+            <p class="event_data" id="ed_em">Em:</p>
+            <p class="event_data">Domingo, 18 de Novembro, às 13h</p>
+        </div>
+        <!--Formulário de incrição-->
+        <section id="inscr_form">
+            <p>Preencha o formulário para participar</p>
+            <form id="form_insc">
+                <div id="form_group">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" minlength="6" maxlength="80" required>
+                    <input type="email" name="e-mail" id="email" placeholder="E-mail" required>
+                    <input type="tel" name="telefone" id="tel" placeholder="Telefone de contato" required>
+                    <input type="submit" class="btn" id="sub_btn" value="Quero me inscrever">
+                </div>
+            </form>
+        </section>
+    </header>
+    <!--"O que vc vai aprender"-->
+    <section id="beneficSec">
+        <h2>O que você vai aprender:</h2>
+        <section class="beneficios">
+            <article class="beneficio">
+                <div id="beneficio1" class="bnf-img"></div>
+                <p>Materiais e Ergonomia</p>
+            </article>
+            <article class="beneficio">
+                <div id="beneficio2" class="bnf-img"></div>
+                <p>Composição de Interiores</p>
+            </article>
+            <article class="beneficio">
+                <div id="beneficio3" class="bnf-img"></div>
+                <p>Iluminação e Conforto Ambiental</p>
+            </article>
+        </section>
+    </section>
+    <!--Localização do evento-->
+    <section id="localizacao">
+        <article id="endereco">
+            <i class="bi bi-pin-map"></i>
+            <article id="end_detalhe">
+                <p>Rua do evento, 9999</p>
+                <p>Bairro do evento</p>
+                <p>Abertura: 13h</p>
+            </article>
+        </article>
+        <article id="sobre_end">
+            <h3>Local de destaque</h3>
+            <p>O evento será realizado num local de extremo prestígio dentre os amantes da arquitetura de interiores, onde teremos diversos exemplos de ambientes construidos</p>
+
+        </article>
+    </section>
+    <!--Detalhes sobre o evento-->
+    <section id="detalhes">
+        <section class="detalhe" id="detalhe1">
+            <img src="assets/imgs/shutterstock_1820202062.jpg">
+            <article class="detalhe_desc">
+                <h3>Conheça os ambientes que você vai aprender a decorar</h3>
+            </article>
+        </section>
+        <section class="detalhe" id="detalhe2"> 
+            <article class="detalhe_desc">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Materiais para cada tipo de ambiente</li>
+                    <li>Posicionamento adequado e harmonização do ambiente</li>
+                    <li>Aproveitamento de espaço</li>
+                    <li>Combinação de cores</li>
+                    <li>Iluminação</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </article>
+            <img src="assets/imgs/How-to-Boost-Restaurant-Business-with-the-Perfect-Interior-Design-1536x864.png">
+        </section>
+        <section class="detalhe" id="detalhe3"> 
+            <img src="assets/imgs/Office-design-trends-1.png">
+            <article class="detalhe_desc">
+                <h3>Materiais</h3>
+                <ul>
+                    <li>Mesas</li>
+                    <li>Cadeiras</li>
+                    <li>Móveis planejados</li>
+                    <li>Decorações diversas</li>
+                    <li>Fontes e focos de luzes</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </article>
+        </section>
+    </section>
+    <!--Chamada para o evento-->
+    <section id="chamada_evento">
+        <h3>Gostou? Então se inscreva!</h3>
+        <button class="btn" id="topbtn">Quero me inscrever</button>
+    </section>
+    <footer id="rodape1">
+        <article id="rodape_logo"><h3>ArqPro</h3><i class="bi bi-badge-tm"></i></article>
+        <p>Revolucionando o design de interiores</p>
+        <p><span>Entre em contato:</span> contato@arqpro.com.br</p>
+        <p><span>Telefone:</span> (55)99999-9999</p>
+    </footer>
+    <footer id="rodape2">
+        <article id="feitopor"><p>Leonardo Cavalcante</p></article>
+        <article id="links_ext">
+            <a href="https://github.com/leocavalca" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/leonardo-cavalcante-pereira-71b12754/" aria-label="Linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </article>
+    </footer>
+</body>
+</html>
