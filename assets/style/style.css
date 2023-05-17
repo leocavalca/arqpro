@@ -18,7 +18,7 @@
 }
 /*Formulário de Evento */
 #event_desc{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/imgs/pngtree-indoor-home-background-picture-image_2252177.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("imgs/pngtree-indoor-home-background-picture-image_2252177.jpg");
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -139,18 +139,18 @@
     margin-bottom: 1em;
 }
 #beneficio1{
-    background-image: url("assets/imgs/poltrona-costela-encosto-alto-com-puff-cinza-detalhe-frontal.webp");
+    background-image: url("imgs/poltrona-costela-encosto-alto-com-puff-cinza-detalhe-frontal.webp");
 }
 #beneficio2{
-    background-image: url("assets/imgs/tendencias-de-decoracao.jpeg");
+    background-image: url("imgs/tendencias-de-decoracao.jpeg");
 }
 #beneficio3{
-    background-image: url("assets/imgs/MLM_interior-lighting-fixtures-for-your-home-1024x427.png");
+    background-image: url("imgs/MLM_interior-lighting-fixtures-for-your-home-1024x427.png");
 }
 /*Localização*/
 #localizacao{
     height: 30em ;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/imgs/interiordesign23.png");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("imgs/interiordesign23.png");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -236,7 +236,7 @@
 }
 /*Chamada para o evento*/
 #chamada_evento{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/imgs/pngtree-indoor-home-background-picture-image_2252177.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("imgs/pngtree-indoor-home-background-picture-image_2252177.jpg");
     background-position: center;
     background-size: cover;
     height: 45vh;
