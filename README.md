@@ -6,7 +6,7 @@ Um site fictício, "promovendo" um evento de arquitetura
 
 
 # Descrição do Projeto
-<p>Projeto com finalidade de criar um website fictício, utilizando de conceitos variados de front-end, focado mais na parte visual do projeto.</p>
+<p>Projeto com finalidade de criar um website fictício, utilizando de conceitos variados de front-end, focado mais na parte visual do projeto, com um pequeno formulário que pode ser integrado em outras aplicações.</p>
 
 
 # Status do Projeto
